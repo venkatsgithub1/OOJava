@@ -22,5 +22,9 @@ public class PersonTest {
 
 		System.out.println("After sort");
 		System.out.println(personList);
+
+		Collections.sort(personList, new ReverseComparatorClass<>(new AgeComparator()));
+		System.out.println("Descending order by age");
+		System.out.println(personList);
 	}
 }
