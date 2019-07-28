@@ -2,10 +2,10 @@ package demo.generics.comparator;
 
 import java.util.Comparator;
 
-public class ReverseComparatorClass<T> implements Comparator<T> {
+public class ReverseComparator<T> implements Comparator<T> {
 	private final Comparator<T> comparator;
 
-	public ReverseComparatorClass(Comparator<T> comparator) {
+	public ReverseComparator(Comparator<T> comparator) {
 		this.comparator = comparator;
 	}
 
