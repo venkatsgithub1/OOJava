@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class DishCalorieLevelClassificationWithMapping {
-    static List<Dish> dishes = Dish.menu;
+    private static List<Dish> dishes = Dish.menu;
 
     public static void main(String[] args) {
         /*
@@ -34,5 +34,5 @@ public class DishCalorieLevelClassificationWithMapping {
 }
 
 enum DishCalorieLevel {
-    DIET, NORMAL, FAT;
+    DIET, NORMAL, FAT
 }

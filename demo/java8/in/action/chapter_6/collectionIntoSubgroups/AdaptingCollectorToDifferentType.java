@@ -9,7 +9,7 @@ import java.util.stream.Collectors;
 
 public class AdaptingCollectorToDifferentType {
 
-    static List<Dish> dishes = Dish.menu;
+    private static List<Dish> dishes = Dish.menu;
 
     public static void main(String[] args) {
         /*
